@@ -1,0 +1,15 @@
+{
+  "name": "sleep-ai-insight-root",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Root wrapper to run scripts for the inner Vite React app",
+  "scripts": {
+    "install:app": "npm install --prefix sleep-ai-insight-main",
+    "dev": "npm run dev --prefix sleep-ai-insight-main",
+    "build": "npm run build --prefix sleep-ai-insight-main",
+    "preview": "npm run preview --prefix sleep-ai-insight-main",
+    "lint": "npm run lint --prefix sleep-ai-insight-main"
+  }
+}
+
+
